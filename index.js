@@ -2,7 +2,7 @@
   "use strict";
 
   function atob(str) {
-    return new Buffer(str, 'utf8').toString('base64');
+    return new Buffer(str, 'base64').toString('utf8');
   }
 
   module.exports = atob;

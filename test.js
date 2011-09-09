@@ -2,11 +2,12 @@
   "use strict";
 
   var atob = require('./index')
-    , expected = "SGVsbG8gV29ybGQ="
+    , encoded = "SGVsbG8gV29ybGQ="
+    , unencoded = "Hello World"
     , result
     ;
 
-  if (expected !== atob("Hello World")) {
+  if (unencoded !== atob(encoded)) {
     return;
   }
 
