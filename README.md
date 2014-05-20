@@ -17,3 +17,12 @@ It turns base64-encoded **a**scii data back **to** **b**inary.
 
       console.log(bin); // "Hello World"
     }());
+
+Copyright and license
+===
+
+Code and documentation copyright 2012-2014 AJ ONeal Tech, LLC.
+
+Code released under the [Apache license](https://github.com/node-browser-compat/atob/blob/master/LICENSE).
+
+Docs released under [Creative Commons](https://github.com/node-browser-compat/atob/blob/master/LICENSE.DOCS).
