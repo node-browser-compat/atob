@@ -5,7 +5,7 @@ Uses `Buffer` to emulate the exact functionality of the browser's atob.
 
 Note: Unicode may be handled incorrectly (like the browser).
 
-It turns base64-encoded **a**scii data back **to** **b**inary.
+It turns base64-encoded <strong>a</strong>scii data back **to** <strong>b</strong>inary.
 
     (function () {
       "use strict";
