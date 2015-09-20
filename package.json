@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git://github.com/coolaj86/node-browser-compat.git"
   },
+  "browser": "./browser.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
   "keywords": [
     "atob",
     "browser"
@@ -19,5 +23,8 @@
     "atob": "bin/atob.js"
   },
   "license": "Apache2",
-  "version": "1.1.2"
+  "version": "1.1.2",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
 }

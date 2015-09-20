@@ -1,20 +1,12 @@
 /*jshint strict:true node:true es5:true onevar:true laxcomma:true laxbreak:true eqeqeq:true immed:true latedef:true*/
-(function () {
-  "use strict";
+'use strict';
 
-  var atob = require('./index')
-    , encoded = "SGVsbG8gV29ybGQ="
-    , unencoded = "Hello World"
-  /*
-    , encoded = "SGVsbG8sIBZM"
-    , unencoded = "Hello, 世界"
-  */
-    ;
+var test = require('tape')
+  , atob = require('./')
+  ;
 
-  if (unencoded !== atob(encoded)) {
-    console.log('[FAIL]', unencoded, atob(encoded));
-    return;
-  }
-
-  console.log('[PASS] all tests pass');
-}());
+test('atob', function(t) {
+  t.equal('Hello World', atob('SGVsbG8gV29ybGQ='), 'base64-encodes string');
+  t.equal('', atob(''), 'base64-encodes empty string');
+  t.end();
+});
