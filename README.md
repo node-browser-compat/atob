@@ -18,8 +18,7 @@ It turns base64-encoded <strong>a</strong>scii data back **to** <strong>b</stron
       console.log(bin); // "Hello World"
     }());
 
-Browser Unicode and Binary Support
-========
+### Need Unicode and Binary Support in the Browser?
 
 Check out [unibabel.js](https://github.com/coolaj86/unibabel-js)
 
