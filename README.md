@@ -9,7 +9,7 @@ It turns base64-encoded <strong>a</strong>scii data back **to** <strong>b</stron
 
     (function () {
       "use strict";
-      
+
       var atob = require('atob')
         , b64 = "SGVsbG8gV29ybGQ="
         , bin = atob(b64)
@@ -18,11 +18,13 @@ It turns base64-encoded <strong>a</strong>scii data back **to** <strong>b</stron
       console.log(bin); // "Hello World"
     }());
 
-Copyright and license
-===
+LICENSE
+=======
 
-Code and documentation copyright 2012-2014 AJ ONeal Tech, LLC.
+Code copyright 2012-2015 AJ ONeal
 
-Code released under the [Apache license](https://github.com/node-browser-compat/atob/blob/master/LICENSE).
+Dual-licensed MIT and Apache-2.0
+
+Docs copyright 2012-2015 AJ ONeal
 
 Docs released under [Creative Commons](https://github.com/node-browser-compat/atob/blob/master/LICENSE.DOCS).
