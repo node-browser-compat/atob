@@ -18,6 +18,14 @@ It turns base64-encoded <strong>a</strong>scii data back **to** <strong>b</stron
       console.log(bin); // "Hello World"
     }());
 
+Changes
+=======
+
+  * v2.0.0 provide browser version for ios web workers
+  * v1.2.0 provide (empty) browser version
+  * v1.1.3 add MIT license (see [#4](https://github.com/node-browser-compat/atob/issues/4))
+  * v1.1.2 node only
+
 LICENSE
 =======
 
