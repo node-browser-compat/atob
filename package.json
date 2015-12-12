@@ -18,6 +18,6 @@
   "bin": {
     "atob": "bin/atob.js"
   },
-  "license": "Apache2",
+  "license": "(MIT OR Apache-2.0)",
   "version": "1.1.2"
 }
