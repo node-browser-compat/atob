@@ -6,7 +6,7 @@
   function atob(str) {
     // normal window
     if ('function' === typeof a2b) {
-      return a2b(a2b);
+      return a2b(str);
     }
     // browserify (web worker)
     else if ('function' === typeof Buffer) {
@@ -29,4 +29,8 @@
   }
 
   w.atob = atob;
+
+  if (typeof module !== 'undefined') {
+    module.exports = atob;
+  }
 }(window));
