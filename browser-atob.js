@@ -29,4 +29,8 @@
   }
 
   w.atob = atob;
+
+  if (typeof module !== 'undefined') {
+    module.exports = atob;
+  }
 }(window));

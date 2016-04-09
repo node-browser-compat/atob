@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  var atob = require('./index')
+  var atob = require('.')
     , encoded = "SGVsbG8gV29ybGQ="
     , unencoded = "Hello World"
   /*
