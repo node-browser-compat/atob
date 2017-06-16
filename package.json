@@ -1,10 +1,10 @@
 {
   "name": "atob",
-  "homepage": "https://github.com/coolaj86/node-browser-compat",
+  "homepage": "https://github.com/node-browser-compat/atob",
   "description": "atob for Node.JS and Linux / Mac / Windows CLI (it's a one-liner)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coolaj86/node-browser-compat/atob.git"
+    "url": "git://github.com/node-browser-compat/atob.git"
   },
   "keywords": [
     "atob",
@@ -19,6 +19,7 @@
   "bin": {
     "atob": "bin/atob.js"
   },
+  "scripts": { "test": "nodejs test.js" },
   "license": "(MIT OR Apache-2.0)",
   "version": "2.0.3"
 }
