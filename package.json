@@ -1,10 +1,10 @@
 {
   "name": "atob",
-  "homepage": "https://github.com/coolaj86/node-browser-compat",
+  "homepage": "https://github.com/node-browser-compat",
   "description": "atob for Node.JS and Linux / Mac / Windows CLI (it's a one-liner)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coolaj86/node-browser-compat/atob.git"
+    "url": "git://github.com/node-browser-compat/atob.git"
   },
   "keywords": [
     "atob",
